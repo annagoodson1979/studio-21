@@ -490,6 +490,7 @@ h2 {
 .salon-shell {
   width: 100%;
   padding: 0 clamp(16px, 4vw, 46px) 34px;
+  background: #050404;
 }
 
 .salon-landing-card {
