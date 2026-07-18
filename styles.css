@@ -605,35 +605,30 @@ h2 {
 }
 
 .vagaro-widget-card {
-  width: min(320px, 100%);
+  width: min(520px, 100%);
   margin: 8px auto 0;
-  padding: 0;
-  border: 0;
-  border-radius: 0;
-  background: transparent;
+  padding: 14px;
+  border: 1px solid rgba(231, 187, 179, 0.18);
+  border-radius: 22px;
+  background: rgba(7, 4, 5, 0.42);
 }
 
 .appointment-title {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  min-width: min(300px, 100%);
-  min-height: 42px;
-  margin: 0;
-  padding: 10px 18px;
-  border: 1px solid rgba(231, 187, 179, 0.38);
-  border-radius: 999px;
+  display: block;
+  margin: 0 0 10px;
   color: rgba(247, 238, 232, 0.96);
-  background: rgba(231, 187, 179, 0.1);
-  font-size: 0.74rem;
+  font-size: 0.7rem;
   letter-spacing: 0.16em;
   text-transform: uppercase;
 }
 
-.appointment-title:hover {
-  border-color: rgba(231, 187, 179, 0.7);
-  background: rgba(231, 187, 179, 0.16);
-  color: var(--text);
+.appointment-frame {
+  display: block;
+  width: 100%;
+  height: clamp(260px, 34vh, 340px);
+  border: 0;
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.94);
 }
 
 .vagaro-widget-card .vagaro a {
