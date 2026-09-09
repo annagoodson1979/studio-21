@@ -261,10 +261,10 @@ a {
 .owner-easter-egg {
   position: absolute;
   z-index: 2;
-  left: 47%;
-  top: 46%;
-  width: 18px;
-  height: 18px;
+  left: 49.5%;
+  top: 45.5%;
+  width: 22px;
+  height: 22px;
   transform: translate(-50%, -50%);
   border-radius: 50%;
   outline: 0;
