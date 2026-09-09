@@ -257,6 +257,24 @@ a {
   pointer-events: none;
 }
 
+/* A small private doorway placed over the standing dog's head in the landing artwork. */
+.owner-easter-egg {
+  position: absolute;
+  z-index: 2;
+  left: 47%;
+  top: 46%;
+  width: 18px;
+  height: 18px;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  outline: 0;
+}
+
+.owner-easter-egg:focus-visible {
+  outline: 2px solid rgba(247, 238, 232, 0.9);
+  outline-offset: 5px;
+}
+
 .logo-placeholder,
 .card-placeholder,
 .page-placeholder {
